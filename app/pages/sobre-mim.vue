@@ -9,14 +9,12 @@ useSeoMeta({
 
 <template>
   <div class="container mx-auto px-6 md:px-12 lg:px-24 py-16 flex flex-col gap-20">
-    <!-- Introdução -->
     <section class="grid grid-cols-1 md:grid-cols-12 gap-10 items-center">
       <div class="md:col-span-8 text-center md:text-left">
         <h1 class="text-3xl sm:text-4xl font-bold">
           <span class="text-green-500 font-mono">&lt;</span>Sobre mim<span class="text-green-500 font-mono"> /&gt;</span>
         </h1>
-        <!-- Substitua pelo seu texto -->
-        <p class="mt-6 text-slate-300 leading-relaxed">
+        <p class="mt-6 text-slate-300 leading-relaxed text-justify">
           Desenvolvedor Full Stack com mais de 5 anos de experiência em sistemas web, atuando com Angular, 
           Vue.js e Java (Spring Boot). Experiência em sistemas críticos para clientes como Banco da Amazônia, 
           Ministério da Justiça e Telefônica Vivo, do desenvolvimento de telas e endpoints REST à sustentação 
@@ -29,7 +27,6 @@ useSeoMeta({
       </div>
     </section>
 
-    <!-- Habilidades -->
     <section>
       <h2 class="text-2xl sm:text-3xl font-bold text-center md:text-left">Tecnologias</h2>
       <div class="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-6">
@@ -52,7 +49,6 @@ useSeoMeta({
       </div>
     </section>
 
-    <!-- Experiência -->
     <section>
       <h2 class="text-2xl sm:text-3xl font-bold text-center md:text-left">Experiência</h2>
       <ol class="mt-8 ml-2">

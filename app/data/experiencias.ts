@@ -8,7 +8,7 @@ export interface Experiencia {
 
 export const experiencias: Experiencia[] = [
   {
-    cargo: 'Desenvolvedor Full Stack Pleno',
+    cargo: 'Analista de Sistemas Pleno',
     empresa: 'Cast Group',
     periodo: '04/2026 até atualmente',
     descricao: `
@@ -69,9 +69,10 @@ export const habilidades: { categoria: string, itens: string[] }[] = [
     itens: ['Angular', 'Vue.js', 'Nuxt', 'JavaScript', 'TypeScript', 'Tailwind CSS'] 
   },
   { categoria: 'UI Frameworks', itens: ['Quasar Framework', 'Angular Material', 'Bootstrap'] },
-  { categoria: 'Back-end', itens: ['Java', 'Spring Boot', 'Oracle SQL', 'PostgreSQL'] },
-  { categoria: 'Ferramentas', itens: ['Docker', 'Postman', 'Swagger'] },
+  { categoria: 'Back-end', itens: ['Java', 'Spring Boot', 'Hibernate'] },
+  { categoria: 'Ferramentas', itens: ['Postman', 'Swagger'] },
   { categoria: 'Versionamento', itens: ['Git', 'GitHub', 'GitLab'] },
   { categoria: 'Banco de Dados', itens: ['Oracle SQL', 'PostgreSQL', 'Firebase'] },
-  { categoria: 'Metodologias Ágeis', itens: ['Scrum', 'Kanban'] }
+  { categoria: 'Metodologias Ágeis', itens: ['Scrum', 'Kanban'] },
+  { categoria: 'Aprendendo', itens: ['Docker'] }
 ]
