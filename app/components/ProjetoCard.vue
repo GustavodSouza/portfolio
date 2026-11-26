@@ -1,10 +1,10 @@
 <template>
-  <article class="card flex flex-col rounded-xl overflow-hidden border border-slate-700 bg-slate-900/80">
+  <article class="card flex flex-col rounded-xl overflow-hidden border border-slate-700 bg-slate-900/80" :class="{ 'opacity-60' : filtrado }">
     <img v-if="projeto.imagem" :src="projeto.imagem" :alt="projeto.titulo" class="w-full h-44 object-cover" />
 
     <div class="flex flex-col flex-1 gap-3 p-5">
       <h3 class="text-xl font-bold">{{ projeto.titulo }}</h3>
-      <p class="text-slate-300 text-sm flex-1">{{ projeto.descricao }}</p>
+      <p class="text-slate-300 text-sm flex-1 text-justify">{{ projeto.descricao }}</p>
 
       <ul class="flex flex-wrap gap-2">
         <li
@@ -32,7 +32,8 @@
 import type { Projeto } from '~/data/projetos'
 
 defineProps<{
-  projeto: Projeto
+  projeto: Projeto,
+  filtrado?: boolean
 }>()
 </script>
 

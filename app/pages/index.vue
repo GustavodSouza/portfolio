@@ -14,7 +14,6 @@ useSeoMeta({
 
 <template>
   <div>
-    <!-- Apresentação -->
     <section class="relative container mx-auto px-6 md:px-12 lg:px-24 pt-10 pb-24 grid grid-cols-1 md:grid-cols-12 gap-10 items-center min-h-[calc(100svh-4rem)]">
       <div class="md:col-span-8 flex flex-col justify-center items-center md:items-start text-center md:text-left">
         <div class="flex flex-wrap items-center justify-center md:justify-start text-base sm:text-xl font-mono">
@@ -26,7 +25,7 @@ useSeoMeta({
         </div>
         <div class="flex flex-col mt-3 mb-5">
           <span class="text-3xl sm:text-4xl lg:text-5xl font-bold">Gustavo de Souza de Lima</span>
-          <p class="mt-2">Desenvolvedor Full Stack Pleno</p>
+          <p class="mt-2 text-xl">Desenvolvedor Full Stack Pleno</p>
           <p class="mt-3">Trabalho com:</p>
           <p>Angular • Vue.js • Java • Spring Boot</p>
         </div>
@@ -34,13 +33,11 @@ useSeoMeta({
           <p>
             <span><strong>Email</strong>: gustavosouza501@gmail.com</span>
           </p>
-          <p>
-            <span><strong>Whatsapp</strong>: (55) 99137-6971</span>
-          </p>
         </div>
         <div class="flex flex-col sm:flex-row justify-center md:justify-start gap-3 w-full sm:w-auto">
-          <a class="btn border-2 px-8 py-2 rounded-lg bg-amber-700 hover:bg-green-700 text-center" href="/assets/curriculo-gustavo-souza-lima.pdf" download>Download CV</a>
-          <a class="btn border-2 px-8 py-2 rounded-lg bg-amber-700 hover:bg-sky-700 text-center" href="https://www.linkedin.com/in/gustavo-de-souza-de-lima-084024b4" target="_blank">Linkedin</a>
+          <a class="btn border-2 px-8 py-2 rounded-lg bg-green-500 text-black hover:bg-green-400 text-center" href="/assets/curriculo-gustavo-souza-lima.pdf" download>Download CV</a>
+          <a class="btn border-2 px-8 py-2 rounded-lg hover:bg-[#0A66C2] text-center" href="https://www.linkedin.com/in/gustavo-de-souza-de-lima-084024b4" target="_blank">Linkedin</a>
+          <a class="btn border-2 px-8 py-2 rounded-lg hover:bg-[#223144] text-center" href="https://github.com/GustavodSouza" target="_blank">GitHub</a>
         </div>
       </div>
       <div class="md:col-span-4 flex justify-center md:justify-end order-first md:order-0">
@@ -66,7 +63,7 @@ useSeoMeta({
 
       <div class="mt-10 grid grid-cols-1 md:grid-cols-12 gap-10 items-center">
         <div class="md:col-span-7 text-center md:text-left">
-          <p class="text-slate-300 leading-relaxed">
+          <p class="text-slate-300 leading-relaxed text-justify">
             Sou desenvolvedor Full Stack com mais de {{ anosExperiencia }} anos de experiência construindo sistemas web
             para clientes de grande porte. No front-end trabalho com Angular e Vue.js; no back-end, com Java e Spring Boot,
             indo de telas e componentes reutilizáveis a APIs REST.
